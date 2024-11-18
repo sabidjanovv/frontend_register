@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="container">
-    <form class="registration-form">
-      <h2>Registration</h2>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="full-name">Full Name</label>
-          <input type="text" id="full-name" placeholder="Enter your name" required>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="./images/x_icon2.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="registration-form">
+        <h2>Registration</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              id="full-name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
         </div>
-        <div class="form-group">
-          <label for="username">Username</label>
-          <input type="text" id="username" placeholder="Enter your username" required>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="Enter your number"
+              required
+            />
+          </div>
         </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Enter your email" required>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              id="confirm-password"
+              placeholder="Confirm your password"
+              required
+            />
+          </div>
         </div>
-        <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" placeholder="Enter your number" required>
+        <div class="form-group gender">
+          <label>Gender</label>
+          <div class="gender-options">
+            <label
+              ><input type="radio" name="gender" value="male" /> Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="female" /> Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="prefer-not" /> Prefer
+              not to say</label
+            >
+          </div>
         </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" id="password" placeholder="Enter your password" required>
-        </div>
-        <div class="form-group">
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" id="confirm-password" placeholder="Confirm your password" required>
-        </div>
-      </div>
-      <div class="form-group gender">
-        <label>Gender</label>
-        <div class="gender-options">
-          <label><input type="radio" name="gender" value="male"> Male</label>
-          <label><input type="radio" name="gender" value="female"> Female</label>
-          <label><input type="radio" name="gender" value="prefer-not"> Prefer not to say</label>
-        </div>
-      </div>
-      <button type="submit" class="register-btn">Register</button>
-    </form>
-  </div>
-</body>
+        <button type="submit" class="register-btn">Register</button>
+      </form>
+    </div>
+  </body>
 </html>
