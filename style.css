@@ -109,7 +109,7 @@ body {
 
   .form-row {
     flex-direction: column;
-    gap: 10px; /* Form elementlar orasidagi masofa */
+    gap: 10px;
   }
 
   .form-group {
@@ -117,7 +117,7 @@ body {
   }
 
   .form-group input {
-    font-size: 12px; /* Matn o‘lchamini kichikroq qilish */
+    font-size: 12px;
     padding: 8px;
   }
 
@@ -127,15 +127,15 @@ body {
   }
 
   .gender-options {
-    flex-direction: column; /* Gender variantlarini vertikal qilish */
+    flex-direction: column;
     gap: 5px;
   }
 
   .registration-form h2 {
-    font-size: 20px; /* Sarlavha matnini kichikroq qilish */
+    font-size: 20px;
   }
 
   .registration-form h2::before {
-    width: 20px; /* Sarlavha ostidagi chiziqni kichraytirish */
+    width: 20px;
   }
 }
